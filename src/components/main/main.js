@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 
 class Main extends Component {
+  
+  generateCards = () => {
+    
+  }
+
   render() {
     return (
       <div className='game'>
-        game area
+        {generateCards()}
       </div>
     );
   }

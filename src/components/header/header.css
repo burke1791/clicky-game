@@ -1,0 +1,23 @@
+.header {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 56px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.header > .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
