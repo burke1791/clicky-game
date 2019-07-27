@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import Header from './components/header';
+import Jumbotron from './components/jumbotron';
+import Main from './components/main';
+import Footer from './components/footer';
 
-class App extends Component () {
+class App extends Component {
   
   
-  rener() {
+  render() {
     return (
       <div className="App">
         <Header />
